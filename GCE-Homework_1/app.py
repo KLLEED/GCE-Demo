@@ -8,4 +8,4 @@ def profile(username):
     return '<h1>Hello {}!</h1>'.format(escape(username))
 
 if __name__ == '__main__':
-    app.run(debug=True,port=8090)
+    app.run(host='0.0.0.0',port=8090)
